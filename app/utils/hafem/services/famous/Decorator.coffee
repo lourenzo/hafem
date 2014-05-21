@@ -4,14 +4,14 @@ Decorator = Ember.Object.extend
 
     containers: {}
 
-    get: (from) ->
-      @containers[from.$().parents('.famous-context').attr('id')]
+    get: (source) ->
+      @containers[source.$().parents('.famous-context').attr('id')]
 
-    set: (from) ->
-      @containers[from.get('elementId')] = from
+    set: (source) ->
+      @containers[source.get('elementId')] = source
 
-    destroy: (from) ->
-      delete @containers[from.get('elementId')]
+    destroy: (source) ->
+      delete @containers[source.get('elementId')]
 
 
 `export default Decorator`

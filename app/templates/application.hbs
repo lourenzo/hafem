@@ -1,8 +1,8 @@
 {{#fa-engine}}
 
-  {{#each element in controller}}
+  {{#fa-view}}
 
-    {{#fa-view}}
+    {{#each element in controller}}
 
       {{#fa-modifier fa-translate-x=element.transform.from.x fa-translate-y=element.transform.from.y fa-translate-z=element.transform.from.z fa-rotate-z=0}}
 
@@ -10,10 +10,13 @@
 
           {{#fa-animation fa-translate-x=element.transform.from.x fa-translate-y=element.transform.from.y fa-translate-z=element.transform.from.z fa-duration=1000 fa-curve=element.curve}}
 
-            {{#fa-surface classNames="samplesquare" color=element.color fa-width=element.width fa-height=element.height}}
-              {{element.name}}
-              {{input value=element.name}}
-            {{/fa-surface}}
+              {{#fa-surface action="randomAnimation" classNames="samplesquare" color=element.color fa-width=element.width fa-height=element.height}}
+
+                {{element.name}}
+
+                {{input value=element.name }}
+
+              {{/fa-surface}}
 
           {{/fa-animation}}
 
@@ -21,8 +24,8 @@
 
       {{/fa-modifier}}
 
-    {{/fa-view}}
+    {{/each}}
 
-  {{/each}}
+  {{/fa-view}}
 
 {{/fa-engine}}

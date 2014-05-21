@@ -10,6 +10,8 @@ HafemInitializer =
     ###
     application.register 'hafem:isolate', HafemDecorator
     application.inject 'component', 'hafem', 'hafem:isolate'
+    application.inject 'controller', 'hafem', 'hafem:isolate'
+    application.inject 'route', 'hafem', 'hafem:isolate'
 
 
 

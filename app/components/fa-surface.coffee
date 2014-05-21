@@ -1,6 +1,6 @@
 `import HafemCoreSurface from 'emberfam/utils/hafem/directives/famous/core/Surface'`
 
-Component = Ember.Component.extend
+Component = Ember.Component.extend Ember.ViewTargetActionSupport,
 
   classNames: ['famous-context']
 
@@ -8,6 +8,9 @@ Component = Ember.Component.extend
 
   'fa-width': null
   'fa-height': null
+
+  click: ->
+    @triggerAction(@)
 
   willInsertElement: ->
     @hafem.isolate.set(@)
