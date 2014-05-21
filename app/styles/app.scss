@@ -1,0 +1,17 @@
+html, body {
+  margin: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.samplesquare {
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  line-height: 20px;
+  input {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="famous.js" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/vendor/famous/famous.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
