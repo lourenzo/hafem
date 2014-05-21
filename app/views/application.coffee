@@ -1,18 +1,30 @@
+`import HafemCoreEngine from 'emberfam/utils/hafem/directives/famous/core/Engine'`
+`import HafemCoreSurface from 'emberfam/utils/hafem/directives/famous/core/Surface'`
+`import HafemViewsScrollview from 'emberfam/utils/hafem/directives/famous/views/Scrollview'`
+
 View = Ember.View.extend
   didInsertElement: ->
-    #@famousScrollviewDemo()
+    #@famousScrollviewDemo(true)
 
-  famousScrollviewDemo: ->
-    Engine = famous.core.Engine
-    Surface = famous.core.Surface
-    Scrollview = famous.views.Scrollview
-    mainContext = Engine.createContext()
+  famousScrollviewDemo: (useHafem = true) ->
+    Engine = if useHafem then HafemCoreEngine else famous.core.Engine
+    Surface = if useHafem then HafemCoreSurface else famous.core.Surface
+    Scrollview = if useHafem then HafemViewsScrollview else famous.views.Scrollview
+
+    self = @
+
+    @set('surfaces', [])
+
+    mainContext = Engine.createContext($('#test-context')[0])
+
     scrollview = new Scrollview()
-    surfaces = []
-    scrollview.sequenceFrom surfaces
+
+    scrollview.sequenceFrom @get('surfaces')
+
+    mainContext.add scrollview
+
     i = 0
-    temp = undefined
-    
+
     while i < 40
       temp = new Surface(
         content: "Surface: " + (i + 1)
@@ -22,12 +34,14 @@ View = Ember.View.extend
         ]
         properties:
           backgroundColor: "hsl(" + (i * 360 / 40) + ", 100%, 50%)"
-          lineHeight: "200px"
-          textAlign: "center"
       )
+
       temp.pipe scrollview
-      surfaces.push temp
+
+      self.get('surfaces').push temp
+
       i++
-    mainContext.add scrollview
+
+
     
 `export default View`

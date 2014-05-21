@@ -8,9 +8,7 @@ Component = Ember.Component.extend
 
   addTo: (source) ->
     source.pipe @get('fa')
-    console.log('###')
     @get('surfaces').push(source)
-    console.log(@get('surfaces'))
 
   didInsertElement: ->
     @hafem.isolate.set(@)
@@ -21,6 +19,8 @@ Component = Ember.Component.extend
     fa.sequenceFrom(@get('surfaces'))
 
     @set('fa', fa)
+
+
 
     @hafem.isolate.get(@).addTo(fa)
 

@@ -1,7 +1,27 @@
-html, body {
-  margin: 20px;
+html, body, body > .ember-view, #test-context {
+  margin: 0;
   height: 100%;
   width: 100%;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  background: white;
+  border-bottom: 1px solid black;
+  z-index: 1000;
+  ul {
+    padding: 0;
+    li {
+      float: left;
+      list-style: none;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
 }
 
 .samplesquare {

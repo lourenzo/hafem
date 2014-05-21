@@ -2,7 +2,7 @@
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-context', 'famous-core-engine']
+  classNames: ['famous-container', 'famous-context', 'famous-core-engine']
 
   layout: Ember.Handlebars.compile('{{yield}}')
 

@@ -6,8 +6,8 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
 
   layout: Ember.Handlebars.compile('{{yield}}')
 
-  'fa-width': null
-  'fa-height': null
+  'fa-width': `undefined`
+  'fa-height': `undefined`
 
   didInsertElement: ->
     @hafem.isolate.set(@)
