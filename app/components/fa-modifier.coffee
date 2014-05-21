@@ -24,7 +24,7 @@ Component = Ember.Component.extend
 
     @set('transform', transform)
 
-  willInsertElement: ->
+  didInsertElement: ->
 
     @hafem.isolate.set(@)
 
@@ -34,5 +34,8 @@ Component = Ember.Component.extend
 
     if @get('fa-rotate-z')
       @addTransform(HafemCoreTransform.rotateZ(@get('fa-rotate-z')))
+
+  willDestroy: ->
+    @hafem.isolate.destroy(@)
 
 `export default Component`

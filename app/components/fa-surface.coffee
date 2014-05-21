@@ -9,10 +9,7 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
   'fa-width': null
   'fa-height': null
 
-  click: ->
-    @triggerAction(@)
-
-  willInsertElement: ->
+  didInsertElement: ->
     @hafem.isolate.set(@)
 
     self = @
@@ -29,5 +26,14 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
     @set('fa', fa)
 
     @hafem.isolate.get(@).get('fa').add(fa)
+
+  willDestroy: ->
+    @hafem.isolate.destroy(@)
+
+  ###
+    Actions
+  ###
+  click: ->
+    @triggerAction(@)
 
 `export default Component`

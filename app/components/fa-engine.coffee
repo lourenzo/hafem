@@ -6,13 +6,18 @@ Component = Ember.Component.extend
 
   layout: Ember.Handlebars.compile('{{yield}}')
 
-  willInsertElement: ->
+  didInsertElement: ->
 
     @hafem.isolate.set(@)
 
     fa = HafemCoreEngine.createContext(@$()[0])
 
+    window.fooo = @hafem.isolate.containers
+
     @set('fa', fa)
+
+  willDestroy: ->
+    @hafem.isolate.destroy(@)
 
 
 `export default Component`

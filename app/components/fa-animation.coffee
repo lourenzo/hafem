@@ -11,7 +11,7 @@ Component = Ember.Component.extend
   'fa-translate-y': null
   'fa-translate-z': null
 
-  willInsertElement: ->
+  didInsertElement: ->
     self = @
     @hafem.isolate.get(@).get('transform').setTransform HafemCoreTransform.translate(@get('fa-translate-x'), @get('fa-translate-y'), @get('fa-translate-z')),
       duration: @get('fa-duration')

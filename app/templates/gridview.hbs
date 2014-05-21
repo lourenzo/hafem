@@ -1,0 +1,23 @@
+{{#fa-engine}}
+
+  {{#fa-view}}
+
+    {{#each element in controller}}
+
+      {{#fa-modifier fa-translate-x=element.positionx fa-translate-y=element.positiony fa-translate-z=0 fa-rotate-z=0}}
+
+        {{#fa-surface action="randomAnimation" classNames="samplesquare" color=element.color fa-width=200 fa-height=200}}
+
+          {{element.name}}
+
+          {{input value=element.name }}
+
+        {{/fa-surface}}
+
+      {{/fa-modifier}}
+
+    {{/each}}
+
+  {{/fa-view}}
+
+{{/fa-engine}}

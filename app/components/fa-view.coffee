@@ -4,7 +4,7 @@ Component = Ember.Component.extend
 
   classNames: ['famous-context']
 
-  willInsertElement: ->
+  didInsertElement: ->
 
     @hafem.isolate.set(@)
 
@@ -15,5 +15,8 @@ Component = Ember.Component.extend
     @set('fa', fa)
 
     @hafem.isolate.get(@).get('fa').add fa
+
+  willDestroy: ->
+    @hafem.isolate.destroy(@)
 
 `export default Component`
