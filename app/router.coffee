@@ -4,5 +4,6 @@ Router = Ember.Router.extend
 Router.map ->
   @route("randomsquares");
   @route("gridview");
+  @route("scrollview");
 
 `export default Router`

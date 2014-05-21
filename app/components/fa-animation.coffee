@@ -3,7 +3,7 @@
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-animation']
+  classNames: ['famous-animation', 'famous-core-transform', 'famous-transitions-easing']
 
   'fa-curve': 'HafemTransitionsEasing.inOutBack'
   'fa-duration': 1000

@@ -2,7 +2,10 @@
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-context']
+  classNames: ['famous-context', 'famous-core-view']
+
+  addTo: (source) ->
+    @get('fa').add(source)
 
   didInsertElement: ->
 

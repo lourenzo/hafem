@@ -2,7 +2,7 @@
 
 Component = Ember.Component.extend Ember.ViewTargetActionSupport,
 
-  classNames: ['famous-context']
+  classNames: ['famous-context', 'famous-core-surface']
 
   layout: Ember.Handlebars.compile('{{yield}}')
 
@@ -25,7 +25,7 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
 
     @set('fa', fa)
 
-    @hafem.isolate.get(@).get('fa').add(fa)
+    @hafem.isolate.get(@).addTo(fa)
 
   willDestroy: ->
     @hafem.isolate.destroy(@)

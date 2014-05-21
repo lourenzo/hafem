@@ -3,7 +3,7 @@
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-context']
+  classNames: ['famous-context', 'famous-core-modifier', 'famous-core-transform']
 
   layout: Ember.Handlebars.compile('{{yield}}')
 
@@ -11,6 +11,9 @@ Component = Ember.Component.extend
   'fa-translate-y': null
   'fa-translate-z': null
   'fa-rotate-z': null
+
+  addTo: (source) ->
+    @get('fa').add(source)
 
   addTransform: (transform) ->
     self = @

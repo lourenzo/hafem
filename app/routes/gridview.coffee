@@ -29,7 +29,6 @@ Route = Ember.Route.extend
         currenty = currenty + 200
         currentx = 0
 
-      console.log currentx
       i++
 
     Ember.A(elements)
