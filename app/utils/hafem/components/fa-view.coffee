@@ -1,4 +1,4 @@
-`import HafemCoreView from 'emberfam/utils/hafem/directives/famous/core/View'`
+`import HafemCoreView from '../directives/famous/core/View'`
 
 Component = Ember.Component.extend
 

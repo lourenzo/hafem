@@ -1,4 +1,4 @@
-`import HafemViewsScrollview from 'emberfam/utils/hafem/directives/famous/views/Scrollview'`
+`import HafemViewsScrollview from '../directives/famous/views/Scrollview'`
 
 Component = Ember.Component.extend
 

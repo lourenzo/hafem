@@ -1,11 +1,11 @@
-`import HafemDecorator from 'emberfam/utils/hafem/services/famous/Decorator'`
+`import HafemDecorator from '../services/famous/Decorator'`
 
-`import HafemAnimationComponent from 'emberfam/utils/hafem/components/fa-animation'`
-`import HafemEngineComponent from 'emberfam/utils/hafem/components/fa-engine'`
-`import HafemModifierComponent from 'emberfam/utils/hafem/components/fa-modifier'`
-`import HafemScrollviewComponent from 'emberfam/utils/hafem/components/fa-scrollview'`
-`import HafemSurfaceomponent from 'emberfam/utils/hafem/components/fa-surface'`
-`import HafemViewComponent from 'emberfam/utils/hafem/components/fa-view'`
+`import HafemAnimationComponent from '../components/fa-animation'`
+`import HafemEngineComponent from '../components/fa-engine'`
+`import HafemModifierComponent from '../components/fa-modifier'`
+`import HafemScrollviewComponent from '../components/fa-scrollview'`
+`import HafemSurfaceomponent from '../components/fa-surface'`
+`import HafemViewComponent from '../components/fa-view'`
 
 
 HafemInitializer =
