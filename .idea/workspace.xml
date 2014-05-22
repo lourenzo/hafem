@@ -63,71 +63,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/application.coffee">
+      <file leaf-file-name="Decorator.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/hafem/services/famous/Decorator.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1160">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gridview.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/gridview.coffee">
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+            <state vertical-scroll-proportion="-22.23077" vertical-offset="142" max-vertical-offset="840">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrollview.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/scrollview.coffee">
+      <file leaf-file-name=".gitkeep" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/hafem/initializers/.gitkeep">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrollview.hbs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/scrollview.hbs">
+      <file leaf-file-name="hafem.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/hafem/initializers/hafem.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="460">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fa-surface.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/components/fa-surface.coffee">
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24861878" vertical-offset="0" max-vertical-offset="880">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.22099447" vertical-offset="0" max-vertical-offset="724">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/application.coffee">
+      <file leaf-file-name=".gitkeep" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/hafem/components/.gitkeep">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1040">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="randomsquares.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/randomsquares.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/mixins/Famous.coffee" />
-        <option value="$PROJECT_DIR$/vendor/famous/foo.js" />
         <option value="$PROJECT_DIR$/app/utils/famous.coffee" />
         <option value="$PROJECT_DIR$/app/utils/famous/core/View.coffee" />
         <option value="$PROJECT_DIR$/app/utils/famous/core/Engine.coffee" />
@@ -164,11 +151,8 @@
         <option value="$PROJECT_DIR$/app/utils/hafem/transitions/Easing.coffee" />
         <option value="$PROJECT_DIR$/app/utils/hafem/services/famousDecorator.coffee" />
         <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/app/app.coffee" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/utils/hafem/services/famous/Decorator.coffee" />
-        <option value="$PROJECT_DIR$/app/initializers/hafem.coffee" />
         <option value="$PROJECT_DIR$/config/environment.js" />
         <option value="$PROJECT_DIR$/app/controllers/application.coffee" />
         <option value="$PROJECT_DIR$/app/templates/randomsquares.hbs" />
@@ -179,21 +163,27 @@
         <option value="$PROJECT_DIR$/app/router.coffee" />
         <option value="$PROJECT_DIR$/app/templates/gridview.hbs" />
         <option value="$PROJECT_DIR$/app/components/fa-animation.coffee" />
-        <option value="$PROJECT_DIR$/app/components/fa-modifier.coffee" />
-        <option value="$PROJECT_DIR$/app/components/fa-view.coffee" />
-        <option value="$PROJECT_DIR$/app/components/fa-engine.coffee" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
-        <option value="$PROJECT_DIR$/app/styles/app.scss" />
         <option value="$PROJECT_DIR$/app/views/application.coffee" />
         <option value="$PROJECT_DIR$/app/utils/hafem/directives/famous/views/Scrollview.coffee" />
         <option value="$PROJECT_DIR$/vendor/famous/famous.js" />
-        <option value="$PROJECT_DIR$/app/components/fa-scrollview.coffee" />
-        <option value="$PROJECT_DIR$/app/routes/application.coffee" />
         <option value="$PROJECT_DIR$/app/routes/gridview.coffee" />
         <option value="$PROJECT_DIR$/app/routes/randomsquares.coffee" />
         <option value="$PROJECT_DIR$/app/routes/scrollview.coffee" />
         <option value="$PROJECT_DIR$/app/templates/scrollview.hbs" />
+        <option value="$PROJECT_DIR$/app/routes/application.coffee" />
+        <option value="$PROJECT_DIR$/app/components/fa-engine.coffee" />
+        <option value="$PROJECT_DIR$/app/components/fa-modifier.coffee" />
+        <option value="$PROJECT_DIR$/app/components/fa-scrollview.coffee" />
         <option value="$PROJECT_DIR$/app/components/fa-surface.coffee" />
+        <option value="$PROJECT_DIR$/app/components/fa-view.coffee" />
+        <option value="$PROJECT_DIR$/app/utils/hafem/services/famous/Decorator.coffee" />
+        <option value="$PROJECT_DIR$/app/templates/loading.coffee" />
+        <option value="$PROJECT_DIR$/app/templates/loading.hbs" />
+        <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/app/initializers/hafem.coffee" />
+        <option value="$PROJECT_DIR$/app/utils/hafem/initializers/hafem.coffee" />
+        <option value="$PROJECT_DIR$/app/app.coffee" />
       </list>
     </option>
   </component>
@@ -278,7 +268,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,25 +286,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emberfam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emberfam" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="hafem" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,11 +321,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/utils/hafem" />
       <recent name="$PROJECT_DIR$/app/components" />
       <recent name="$PROJECT_DIR$/app/templates" />
       <recent name="$PROJECT_DIR$/app/routes" />
       <recent name="$PROJECT_DIR$/app/controllers" />
-      <recent name="$PROJECT_DIR$/app/utils/famous/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/utils/hafem/services/famous" />
@@ -601,16 +577,16 @@
       <workItem from="1400417869039" duration="11671000" />
       <workItem from="1400510068638" duration="1427000" />
       <workItem from="1400578809768" duration="1301000" />
-      <workItem from="1400580455454" duration="52818000" />
+      <workItem from="1400580455454" duration="54925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67217000" />
+    <option name="totallyTimeSpent" value="69324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,14 +638,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Brocfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="880">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="660">
@@ -821,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055248618" vertical-offset="0" max-vertical-offset="724">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77363896" vertical-offset="0" max-vertical-offset="720">
@@ -849,30 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/initializers/hafem.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35911602" vertical-offset="0" max-vertical-offset="724">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/hafem/services/famous/Decorator.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110497236" vertical-offset="0" max-vertical-offset="724">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/randomsquares.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8759124" vertical-offset="80" max-vertical-offset="820">
-          <caret line="34" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -917,38 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/gridview.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08595989" vertical-offset="0" max-vertical-offset="698">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-view.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110497236" vertical-offset="0" max-vertical-offset="724">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-modifier.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13812155" vertical-offset="0" max-vertical-offset="980">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-animation.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14064698" vertical-offset="0" max-vertical-offset="711">
-          <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.055248618" vertical-offset="0" max-vertical-offset="724">
@@ -965,34 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6017192" vertical-offset="0" max-vertical-offset="840">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-engine.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110497236" vertical-offset="0" max-vertical-offset="724">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
           <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-scrollview.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2762431" vertical-offset="0" max-vertical-offset="724">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1013,34 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/application.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1160">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/randomsquares.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/gridview.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/scrollview.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1061,10 +917,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/fa-surface.coffee">
+    <entry file="file://$PROJECT_DIR$/app/routes/scrollview.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24861878" vertical-offset="0" max-vertical-offset="880">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/gridview.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/application.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1160">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/gridview.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="580">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/randomsquares.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="820">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/hafem/components/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.23077" vertical-offset="142" max-vertical-offset="840">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/hafem/services/famous/Decorator.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/hafem/initializers/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/hafem/initializers/hafem.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22099447" vertical-offset="0" max-vertical-offset="724">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -29,16 +29,11 @@ Component = Ember.Component.extend
 
   didInsertElement: ->
 
-    @hafem.isolate.set(@)
-
     @set('fa', @hafem.isolate.get(@).get('fa'))
 
     @addTransform(HafemCoreTransform.translate(@get('fa-translate-x'), @get('fa-translate-y'), @get('fa-translate-z')))
 
     if @get('fa-rotate-z')
       @addTransform(HafemCoreTransform.rotateZ(@get('fa-rotate-z')))
-
-  willDestroy: ->
-    @hafem.isolate.destroy(@)
 
 `export default Component`

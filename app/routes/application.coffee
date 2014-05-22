@@ -9,9 +9,9 @@ Route = Ember.Route.extend
     windoww = $(window).width()
 
     currentx = 0
-    currenty = 0
+    currenty = 50
 
-    while i < 50
+    while i < 10
       transition = ""
       color = colors[Math.floor(Math.random()*colors.length)]
       wh = _.random(140, 250)
@@ -25,12 +25,12 @@ Route = Ember.Route.extend
         transform: {
           from:{
             x: _.random(20, 500)
-            y: _.random(20, 500)
+            y: _.random(50, 500)
             z: 0
           }
           to:{
             x: _.random(20, $(window).width() - wh - 20)
-            y: _.random(20, $(window).height() - wh - 20)
+            y: _.random(50, $(window).height() - wh - 20)
             z: 0
           }
         }

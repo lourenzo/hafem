@@ -10,7 +10,6 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
   'fa-height': `undefined`
 
   didInsertElement: ->
-    @hafem.isolate.set(@)
 
     self = @
 
@@ -26,9 +25,6 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
     @set('fa', fa)
 
     @hafem.isolate.get(@).addTo(fa)
-
-  willDestroy: ->
-    @hafem.isolate.destroy(@)
 
   ###
     Actions

@@ -9,8 +9,6 @@ Component = Ember.Component.extend
 
   didInsertElement: ->
 
-    @hafem.isolate.set(@)
-
     self = @
 
     fa = new HafemCoreView()
@@ -18,8 +16,5 @@ Component = Ember.Component.extend
     @set('fa', fa)
 
     @hafem.isolate.get(@).get('fa').add fa
-
-  willDestroy: ->
-    @hafem.isolate.destroy(@)
 
 `export default Component`

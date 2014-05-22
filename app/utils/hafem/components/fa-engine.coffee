@@ -11,14 +11,9 @@ Component = Ember.Component.extend
 
   didInsertElement: ->
 
-    @hafem.isolate.set(@)
-
     fa = HafemCoreEngine.createContext(@$()[0])
 
     @set('fa', fa)
-
-  willDestroy: ->
-    @hafem.isolate.destroy(@)
 
 
 `export default Component`
