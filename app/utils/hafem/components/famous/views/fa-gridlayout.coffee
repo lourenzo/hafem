@@ -1,20 +1,26 @@
-`import HafemViewsScrollview from '../directives/famous/views/Scrollview'`
+`import HafemViewsGridLayout from '../../../directives/famous/views/GridLayout'`
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-context', 'famous-views-scrollview']
+  classNames: ['famous-context', 'famous-views-gridlayout']
 
   surfaces: []
 
+  'fa-cols': 6
+  'fa-rows': 2
+
   addTo: (source) ->
-    source.pipe @get('fa')
     @get('surfaces').push(source)
 
   didInsertElement: ->
 
     self = @
 
-    fa = new HafemViewsScrollview()
+    fa = new HafemViewsGridLayout( dimensions: [
+      @get('fa-cols')
+      @get('fa-rows')
+    ])
+
     fa.sequenceFrom(@get('surfaces'))
 
     @set('fa', fa)

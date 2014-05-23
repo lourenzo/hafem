@@ -1,4 +1,4 @@
-`import HafemCoreSurface from '../directives/famous/core/Surface'`
+`import HafemCoreSurface from '../../../directives/famous/core/Surface'`
 
 Component = Ember.Component.extend Ember.ViewTargetActionSupport,
 

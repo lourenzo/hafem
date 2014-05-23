@@ -1,11 +1,13 @@
 `import HafemDecorator from '../services/famous/Decorator'`
 
-`import HafemAnimationComponent from '../components/fa-animation'`
-`import HafemEngineComponent from '../components/fa-engine'`
-`import HafemModifierComponent from '../components/fa-modifier'`
-`import HafemScrollviewComponent from '../components/fa-scrollview'`
-`import HafemSurfaceomponent from '../components/fa-surface'`
-`import HafemViewComponent from '../components/fa-view'`
+`import HafemAnimationComponent from '../components/famous/core/fa-animation'`
+`import HafemEngineComponent from '../components/famous/core/fa-engine'`
+`import HafemModifierComponent from '../components/famous/core/fa-modifier'`
+`import HafemSurfaceomponent from '../components/famous/core/fa-surface'`
+`import HafemViewComponent from '../components/famous/core/fa-view'`
+
+`import HafemScrollviewComponent from '../components/famous/views/fa-scrollview'`
+`import HafemGridLayoutComponent from '../components/famous/views/fa-gridlayout'`
 
 
 HafemInitializer =
@@ -27,9 +29,11 @@ HafemInitializer =
     container.register('component:fa-animation', HafemAnimationComponent);
     container.register('component:fa-engine', HafemEngineComponent);
     container.register('component:fa-modifier', HafemModifierComponent);
-    container.register('component:fa-scrollview', HafemScrollviewComponent);
     container.register('component:fa-surface', HafemSurfaceomponent);
     container.register('component:fa-view', HafemViewComponent);
+
+    container.register('component:fa-scrollview', HafemScrollviewComponent);
+    container.register('component:fa-gridlayout', HafemGridLayoutComponent);
 
 
 `export default HafemInitializer`

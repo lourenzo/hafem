@@ -1,5 +1,5 @@
-`import HafemCoreModifier from '../directives/famous/core/Modifier'`
-`import HafemCoreTransform from '../directives/famous/core/Transform'`
+`import HafemCoreModifier from '../../../directives/famous/core/Modifier'`
+`import HafemCoreTransform from '../../../directives/famous/core/Transform'`
 
 Component = Ember.Component.extend
 

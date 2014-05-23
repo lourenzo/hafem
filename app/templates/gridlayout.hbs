@@ -1,0 +1,19 @@
+{{#fa-engine}}
+
+  {{#fa-gridlayout fa-cols=5 fa-rows=2}}
+
+    {{#each element in controller}}
+
+        {{#fa-surface classNames="samplesquare" color=element.color fa-width=200 fa-height=200}}
+
+          {{element.name}}
+
+          {{input value=element.name }}
+
+        {{/fa-surface}}
+
+    {{/each}}
+
+  {{/fa-gridlayout}}
+
+{{/fa-engine}}

@@ -5,5 +5,6 @@ Router.map ->
   @route("randomsquares");
   @route("gridview");
   @route("scrollview");
+  @route("gridlayout");
 
 `export default Router`

@@ -1,4 +1,4 @@
-`import HafemCoreEngine from '../directives/famous/core/Engine'`
+`import HafemCoreEngine from '../../../directives/famous/core/Engine'`
 
 Component = Ember.Component.extend
 

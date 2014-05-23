@@ -1,5 +1,5 @@
-`import HafemCoreTransform from '../directives/famous/core/Transform'`
-`import HafemTransitionsEasing from '../directives/famous/transitions/Easing'`
+`import HafemCoreTransform from '../../../directives/famous/core/Transform'`
+`import HafemTransitionsEasing from '../../../directives/famous/transitions/Easing'`
 
 Component = Ember.Component.extend
 
