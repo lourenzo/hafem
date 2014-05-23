@@ -1,0 +1,19 @@
+{{#fa-engine}}
+
+  {{#fa-sequential-layout}}
+
+    {{#each element in controller}}
+
+      {{#fa-surface classNames="samplesquare" color=element.color fa-height=50}}
+
+        {{element.name}}
+
+        {{input value=element.name }}
+
+      {{/fa-surface}}
+
+    {{/each}}
+
+  {{/fa-sequential-layout}}
+
+{{/fa-engine}}

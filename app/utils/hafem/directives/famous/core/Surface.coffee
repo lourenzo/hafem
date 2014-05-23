@@ -14,6 +14,7 @@ HafemCoreSurface = (options) ->
     else
       Surface::elementType = if options.elementType then Surface::elementType else Surface::elementType
 
+    #surface.allocator = allocator
     Surface::setup.call(@, allocator)
     return
 

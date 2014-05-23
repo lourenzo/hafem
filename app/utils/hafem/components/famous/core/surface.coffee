@@ -25,6 +25,9 @@ Component = Ember.Component.extend Ember.ViewTargetActionSupport,
     @set('fa', fa)
 
     @hafem.isolate.get(@).addTo(fa)
+    window.hafem = @get('fa')
+
+
 
   ###
     Actions

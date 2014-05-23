@@ -1,13 +1,12 @@
-`import HafemViewsGridLayout from '../../../directives/famous/views/GridLayout'`
+`import HafemSequentialLayout from '../../../directives/famous/views/SequentialLayout'`
 
 Component = Ember.Component.extend
 
-  classNames: ['famous-context', 'famous-views-gridlayout']
+  classNames: ['famous-context', 'famous-views-sequential-layout']
 
   surfaces: []
 
-  'fa-cols': 6
-  'fa-rows': 2
+  'fa-direction': 90
 
   addTo: (source) ->
     @get('surfaces').push(source)
@@ -16,10 +15,9 @@ Component = Ember.Component.extend
 
     self = @
 
-    fa = new HafemViewsGridLayout( dimensions: [
-      @get('fa-cols')
-      @get('fa-rows')
-    ])
+    fa = new HafemSequentialLayout(
+      direction: @get('fa-direction')
+    )
 
     fa.sequenceFrom(@get('surfaces'))
 
