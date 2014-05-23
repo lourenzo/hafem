@@ -438,7 +438,9 @@ ElementAllocator.prototype.allocate = function allocate(type) {
  */
 ElementAllocator.prototype.deallocate = function deallocate(element) {
     var nodeType = element.nodeName.toLowerCase();
+    console.log(nodeType)
     var nodeStore = this.detachedNodes[nodeType];
+
     nodeStore.push(element);
     this.nodeCount--;
 };

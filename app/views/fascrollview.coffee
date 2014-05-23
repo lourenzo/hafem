@@ -34,6 +34,7 @@ View = Ember.View.extend
         properties:
           backgroundColor: "hsl(" + (i * 360 / 40) + ", 100%, 50%)"
       )
+      console.log(temp)
 
       temp.pipe scrollview
 

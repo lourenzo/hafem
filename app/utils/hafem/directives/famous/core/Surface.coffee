@@ -3,8 +3,8 @@ HafemCoreSurface = (options) ->
   Surface = famous.core.Surface
   surface = new Surface(options)
 
-  surface.setup = (allocator) ->
 
+  surface.setup = (allocator) ->
     if options.target
       Surface::elementType = options.target
       allocator.allocate = (type) ->
@@ -12,18 +12,24 @@ HafemCoreSurface = (options) ->
         @nodeCount++
         result
     else
-      Surface::elementType = if options.elementType then Surface::elementType else Surface::elementType
+      Surface::elementType = if options.elementType then options.elementType else Surface::elementType
 
-    #surface.allocator = allocator
     Surface::setup.call(@, allocator)
     return
+
 
   surface.deploy = (target) ->
     Surface::deploy.call(surface, target)
 
+
   surface.cleanup = (allocator) ->
-    self.templateInstance and self.templateInstance.dom.remove()
+    allocator.deallocate = (type) ->
+      return
     Surface::cleanup.call(surface, allocator)
+
+
+  surface.recall = (target) ->
+    return
 
   surface
 

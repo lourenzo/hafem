@@ -11,6 +11,10 @@ Component = Ember.Component.extend
   addTo: (source) ->
     @get('surfaces').push(source)
 
+  init: ->
+    @_super()
+    @set('surfaces', [])
+
   didInsertElement: ->
 
     self = @
@@ -24,8 +28,5 @@ Component = Ember.Component.extend
     @set('fa', fa)
 
     @hafem.isolate.get(@).addTo(fa)
-
-  willDestroy: ->
-    @set('surfaces', [])
 
 `export default Component`

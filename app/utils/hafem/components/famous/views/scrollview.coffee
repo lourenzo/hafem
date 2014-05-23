@@ -6,6 +6,10 @@ Component = Ember.Component.extend
 
   surfaces: []
 
+  init: ->
+    @_super()
+    @set('surfaces', [])
+
   addTo: (source) ->
     source.pipe @get('fa')
     @get('surfaces').push(source)
@@ -14,14 +18,13 @@ Component = Ember.Component.extend
 
     self = @
 
-    fa = new HafemViewsScrollview()
+    fa = new HafemViewsScrollview(
+      target: self.$()[0]
+    )
     fa.sequenceFrom(@get('surfaces'))
 
     @set('fa', fa)
 
     @hafem.isolate.get(@).addTo(fa)
-
-  willDestroy: ->
-    @set('surfaces', [])
 
 `export default Component`

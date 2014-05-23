@@ -4,6 +4,7 @@ Router = Ember.Router.extend
 Router.map ->
   @route("fascrollview");
   @route("fagridlayout");
+  @route("fasequentiallayout");
 
   @route("randomsquares");
   @route("scrollview");

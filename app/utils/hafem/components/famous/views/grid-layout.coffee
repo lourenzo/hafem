@@ -12,6 +12,10 @@ Component = Ember.Component.extend
   addTo: (source) ->
     @get('surfaces').push(source)
 
+  init: ->
+    @_super()
+    @set('surfaces', [])
+
   didInsertElement: ->
 
     self = @

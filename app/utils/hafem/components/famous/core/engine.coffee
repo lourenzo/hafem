@@ -7,7 +7,8 @@ Component = Ember.Component.extend
   layout: Ember.Handlebars.compile('{{yield}}')
 
   addTo: (source) ->
-    @get('fa').add source
+    @get('fa._node').set source
+    #@get('fa').add source
 
   didInsertElement: ->
 
