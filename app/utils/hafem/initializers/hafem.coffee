@@ -9,6 +9,7 @@
 `import HafemScrollviewComponent from '../components/famous/views/scrollview'`
 `import HafemGridLayoutComponent from '../components/famous/views/grid-layout'`
 `import HafemSequentialLayoutComponent from '../components/famous/views/sequential-layout'`
+`import HafemFlexibleLayoutComponent from '../components/famous/views/flexible-layout'`
 
 
 HafemInitializer =
@@ -36,6 +37,7 @@ HafemInitializer =
     container.register('component:fa-scrollview', HafemScrollviewComponent);
     container.register('component:fa-grid-layout', HafemGridLayoutComponent);
     container.register('component:fa-sequential-layout', HafemSequentialLayoutComponent);
+    container.register('component:fa-flexible-layout', HafemFlexibleLayoutComponent);
 
 
 `export default HafemInitializer`

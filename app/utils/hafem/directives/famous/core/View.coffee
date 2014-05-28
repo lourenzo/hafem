@@ -1,6 +1,6 @@
 HafemCoreView = (options) ->
   self = @
-  View = famous.core.View
+  View = Famous.Core.View
   view = new View(options)
 
   view

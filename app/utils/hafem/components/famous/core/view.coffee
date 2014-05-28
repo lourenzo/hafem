@@ -1,20 +1,16 @@
-`import HafemCoreView from '../../../directives/famous/core/View'`
+`import Hafem from '../../../directives/famous'`
 
-Component = Ember.Component.extend
+Component = Hafem.Component.extend
 
-  classNames: ['famous-context', 'famous-core-view']
+  classNames: ['famous', 'famous-dom-consumer', 'famous-view']
 
-  addTo: (source) ->
-    @get('fa').add(source)
+  famous:
+    _type: Ember.A(['famous', 'famous-dom-consumer', 'famous-view'])
 
-  didInsertElement: ->
-
+  willInsertFamous: ->
     self = @
-
-    fa = new HafemCoreView()
-
+    fa = new Hafem.Famous.Core.View()
     @set('fa', fa)
-
     @hafem.isolate.get(@).get('fa').add fa
 
 `export default Component`

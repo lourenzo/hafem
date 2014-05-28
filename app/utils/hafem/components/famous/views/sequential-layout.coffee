@@ -1,12 +1,16 @@
-`import HafemSequentialLayout from '../../../directives/famous/views/SequentialLayout'`
+`import Hafem from '../../../directives/famous'`
 
-Component = Ember.Component.extend
+
+Component = Hafem.Component.extend
 
   classNames: ['famous-context', 'famous-views-sequential-layout']
 
+  famous:
+    _type: Ember.A(['famous', 'famous-dom-consumer', 'famous-sequentialLayout'])
+
   surfaces: []
 
-  'fa-direction': 90
+  'fa-direction': 0
 
   addTo: (source) ->
     @get('surfaces').push(source)
@@ -15,11 +19,11 @@ Component = Ember.Component.extend
     @_super()
     @set('surfaces', [])
 
-  didInsertElement: ->
+  willInsertFamous: ->
 
     self = @
 
-    fa = new HafemSequentialLayout(
+    fa = new Hafem.Famous.Views.SequentialLayout(
       direction: @get('fa-direction')
     )
 

@@ -1,3 +1,3 @@
-HafemCoreTransform = famous.core.Transform
+HafemCoreTransform = Famous.Core.Transform
 
 `export default HafemCoreTransform`

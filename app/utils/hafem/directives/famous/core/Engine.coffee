@@ -1,3 +1,3 @@
-HafemCoreEngine = famous.core.Engine
+HafemCoreEngine = Famous.Core.Engine
 
 `export default HafemCoreEngine`

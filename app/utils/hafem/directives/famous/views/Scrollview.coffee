@@ -1,7 +1,7 @@
 HafemViewsScrollview = (options) ->
   self = @
 
-  Scrollview = famous.views.Scrollview
+  Scrollview = Famous.Views.Scrollview
   scrollview = new Scrollview(options)
 
   scrollview

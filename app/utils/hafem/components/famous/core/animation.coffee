@@ -1,19 +1,17 @@
-`import HafemCoreTransform from '../../../directives/famous/core/Transform'`
-`import HafemTransitionsEasing from '../../../directives/famous/transitions/Easing'`
+`import Hafem from '../../../directives/famous'`
 
-Component = Ember.Component.extend
+Component = Hafem.Component.extend
 
-  classNames: ['famous-animation', 'famous-core-transform', 'famous-transitions-easing']
+  classNames: ['famous', 'famous-animation']
 
-  'fa-curve': 'HafemTransitionsEasing.inOutBack'
-  'fa-duration': 1000
-  'fa-translate-x': null
-  'fa-translate-y': null
-  'fa-translate-z': null
+  tagName: ''
 
-  didInsertElement: ->
+  famous:
+    _type: Ember.A(['famous', 'famous-animation'])
+
+  willInsertFamous: ->
     self = @
-    @hafem.isolate.get(@).get('transform').setTransform HafemCoreTransform.translate(@get('fa-translate-x'), @get('fa-translate-y'), @get('fa-translate-z')),
+    @hafem.isolate.get(@).get('transform').setTransform Hafem.Famous.Core.Transform.translate(@get('fa-translate-x'), @get('fa-translate-y'), @get('fa-translate-z')),
       duration: @get('fa-duration')
       curve: eval(@get('fa-curve'))
 

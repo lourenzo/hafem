@@ -8,6 +8,7 @@ Router.map ->
 
   @route("randomsquares");
   @route("scrollview");
+  @route("flexiblelayout");
   @route("gridlayout");
   @route("sequentiallayout");
 

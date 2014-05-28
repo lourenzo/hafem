@@ -1,6 +1,6 @@
 HafemCoreModifier = (options) ->
   self = @
-  Modifier = famous.core.Modifier
+  Modifier = Famous.Core.Modifier
   modifier = new Modifier(options)
 
   modifier

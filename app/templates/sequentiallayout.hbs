@@ -1,10 +1,10 @@
 {{#fa-engine}}
 
-  {{#fa-sequential-layout}}
+  {{#fa-sequential-layout fa-direction=0}}
 
     {{#each element in controller}}
 
-      {{#fa-surface classNames="samplesquare" color=element.color fa-height=50}}
+      {{#fa-surface classNames="samplesquare" fa-color=element.color fa-width=100}}
 
         {{element.name}}
 

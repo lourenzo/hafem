@@ -1,7 +1,7 @@
 HafemViewsGridLayout = (options) ->
   self = @
 
-  GridLayout = famous.views.GridLayout
+  GridLayout = Famous.Views.GridLayout
   gridlayout = new GridLayout(options)
 
   gridlayout

@@ -1,19 +1,14 @@
-`import HafemCoreEngine from '../../../directives/famous/core/Engine'`
+`import Hafem from '../../../directives/famous'`
 
-Component = Ember.Component.extend
+Component = Hafem.Component.extend
 
-  classNames: ['famous-container', 'famous-context', 'famous-core-engine']
+  classNames: ['famous', 'famous-dom-consumer', 'famous-engine']
 
-  layout: Ember.Handlebars.compile('{{yield}}')
-
-  addTo: (source) ->
-    @get('fa._node').set source
-    #@get('fa').add source
+  famous:
+    _type: Ember.A(['famous', 'famous-dom-consumer', 'famous-engine'])
 
   didInsertElement: ->
-
-    fa = HafemCoreEngine.createContext(@$()[0])
-
+    fa = Hafem.Famous.Core.Engine.createContext(@$()[0])
     @set('fa', fa)
 
 

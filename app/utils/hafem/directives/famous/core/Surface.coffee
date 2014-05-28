@@ -1,6 +1,6 @@
 HafemCoreSurface = (options) ->
   self = @
-  Surface = famous.core.Surface
+  Surface = Famous.Core.Surface
   surface = new Surface(options)
 
 

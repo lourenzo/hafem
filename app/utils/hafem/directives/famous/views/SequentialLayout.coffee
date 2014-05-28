@@ -1,7 +1,7 @@
 HafemViewsSequentialLayout = (options) ->
   self = @
 
-  SequentialLayout = famous.views.SequentialLayout
+  SequentialLayout = Famous.Views.SequentialLayout
   sequentiallayout = new SequentialLayout(options)
 
   sequentiallayout

@@ -1,8 +1,11 @@
-`import HafemViewsGridLayout from '../../../directives/famous/views/GridLayout'`
+`import Hafem from '../../../directives/famous'`
 
-Component = Ember.Component.extend
+Component = Hafem.Component.extend
 
-  classNames: ['famous-context', 'famous-views-grid-layout']
+  classNames: ['famous', 'famous-dom-consumer', 'famous-gridLayout', 'famous-group', 'famous-container-group']
+
+  famous:
+    _type: Ember.A(['famous', 'famous-dom-consumer', 'famous-gridLayout'])
 
   surfaces: []
 
@@ -16,11 +19,11 @@ Component = Ember.Component.extend
     @_super()
     @set('surfaces', [])
 
-  didInsertElement: ->
+  willInsertFamous: ->
 
     self = @
 
-    fa = new HafemViewsGridLayout( dimensions: [
+    fa = new Hafem.Famous.Views.GridLayout( dimensions: [
       @get('fa-cols')
       @get('fa-rows')
     ])
@@ -30,8 +33,5 @@ Component = Ember.Component.extend
     @set('fa', fa)
 
     @hafem.isolate.get(@).addTo(fa)
-
-  willDestroy: ->
-    @set('surfaces', [])
 
 `export default Component`

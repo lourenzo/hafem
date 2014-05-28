@@ -1,3 +1,3 @@
-HafemTransitionsEasing = famous.transitions.Easing
+HafemTransitionsEasing = Famous.Transitions.Easing
 
 `export default HafemTransitionsEasing`
